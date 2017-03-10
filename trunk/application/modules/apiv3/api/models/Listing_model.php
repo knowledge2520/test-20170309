@@ -178,6 +178,10 @@ class Listing_model extends CI_Model {
 	function get_listing_detail($listing_id , $get_types = false , $get_media = false , $get_average_rating = false , $get_reviews = false , $get_tips = false , $user_id = FALSE)
 	{
 		$row =  $this->db->get_where('business_items', array('id' => $listing_id, 'status' => 1))->first_row();
+		if(!$row){
+			return false;
+		}
+
 		if(isset($row) && !empty($row)){
 			$row->photo_path = $row->photo;
 		}
