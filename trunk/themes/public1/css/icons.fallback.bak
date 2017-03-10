@@ -1,0 +1,42 @@
+.icon-app-store-badge { background-image: url('png/app-store-badge.png'); background-repeat: no-repeat; }
+
+.icon-google-store-badge { background-image: url('png/google-store-badge.png'); background-repeat: no-repeat; }
+
+.icon-hamburger-rocha-cln { background-image: url('png/hamburger-rocha-cln.png'); background-repeat: no-repeat; }
+
+.icon-icon-audio-cues { background-image: url('png/icon-audio-cues.png'); background-repeat: no-repeat; }
+
+.icon-icon-challenges { background-image: url('png/icon-challenges.png'); background-repeat: no-repeat; }
+
+.icon-icon-dj { background-image: url('png/icon-dj.png'); background-repeat: no-repeat; }
+
+.icon-icon-facebook-rocha-cln { background-image: url('png/icon-facebook-rocha-cln.png'); background-repeat: no-repeat; }
+
+.icon-icon-friends { background-image: url('png/icon-friends.png'); background-repeat: no-repeat; }
+
+.icon-icon-goal-coach { background-image: url('png/icon-goal-coach.png'); background-repeat: no-repeat; }
+
+.icon-icon-instagram-rocha-cln { background-image: url('png/icon-instagram-rocha-cln.png'); background-repeat: no-repeat; }
+
+.icon-icon-prescribed-workouts { background-image: url('png/icon-prescribed-workouts.png'); background-repeat: no-repeat; }
+
+.icon-icon-routes { background-image: url('png/icon-routes.png'); background-repeat: no-repeat; }
+
+.icon-icon-twitter-rocha-cln { background-image: url('png/icon-twitter-rocha-cln.png'); background-repeat: no-repeat; }
+
+.icon-icon-workout-comparison { background-image: url('png/icon-workout-comparison.png'); background-repeat: no-repeat; }
+
+.icon-logo-kaiju-cln { background-image: url('png/logo-kaiju-cln.png'); background-repeat: no-repeat; }
+
+.icon-press-review-1-the-boston-globe { background-image: url('png/press-review-1-the-boston-globe.png'); background-repeat: no-repeat; }
+
+.icon-press-review-2-self { background-image: url('png/press-review-2-self.png'); background-repeat: no-repeat; }
+
+.icon-press-review-3-mens-journal { background-image: url('png/press-review-3-mens-journal.png'); background-repeat: no-repeat; }
+
+.icon-runkeeper-go-badge { background-image: url('png/runkeeper-go-badge.png'); background-repeat: no-repeat; }
+
+.icon-runkeeper-rocha-cln { background-image: url('png/runkeeper-rocha-cln.png'); background-repeat: no-repeat; }
+
+.icon-x-rocha-cln { background-image: url('png/x-rocha-cln.png'); background-repeat: no-repeat; }
+

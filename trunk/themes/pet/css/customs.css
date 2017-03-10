@@ -1,0 +1,142 @@
+.main-font {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color:#757575;
+}
+
+.main-font h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.main-font a{
+	color: #2bafe9;
+}
+
+.main-wrapper {
+	padding: 0 30px;
+}
+
+.item-text {
+	text-align:left;
+	font-size:25px;
+	padding-left:30px;
+}
+
+.table-fixed-layout {
+	table-layout: fixed;
+}
+
+table tr td.item-label {
+	width: 30%;
+	white-space: normal !important;
+}
+
+table tr td.item-data {
+	width:70%;
+	white-space: normal !important;
+}
+
+@media screen and (max-width: 991px) {
+	.item-text {
+		text-align:center;
+		font-size:25px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.navbar-collapse {
+		background-color: #fff;
+		-webkit-box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+		-moz-box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+		box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+	}
+	.subpage-head {
+		padding-top: 60;
+	}
+	.subpage-head + .has-margin-bottom {
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
+
+.item-header-logo img{
+	width: 150px;
+	float: right;
+    margin-left: 0;
+    padding-left: 0;
+    width: 11%;
+}
+
+.item-header-content {
+	float: left;
+    /* margin-left: 20px; */
+    width: 52%;
+    padding-left: 10px;
+}
+
+.item-header-avatar img{
+	float: left;
+    margin: 0 15px 19px 0;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    margin-right: 30px;
+}
+
+.entry-title {
+	font-size: 25px;
+	font-weight: 600;
+    line-height: 1.5;
+    margin-top: -10px;
+    padding: 0;
+}
+
+.user-nicename {
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}
+
+.activity {
+    display: inline-block;
+    color: #aaa;
+    font-size: 12px;
+    padding: 1px 0;
+}
+
+@media screen and (max-width: 530px) {
+	.item-header-logo {
+		display: none;
+	}
+	.item-header-logo-mobile {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.item-header-logo-mobile img{
+		width: 100px;
+	}
+	.item-header-avatar img{
+		max-width: 100px;
+		margin-right: 10px;
+	}
+	.item-header-content {
+	    float: left;
+	    width: 62%;
+	    padding-left: 0px;
+	}
+}
+
+@media screen and (min-width: 530px) {
+	.item-header-logo-mobile {
+		display: none;
+	}
+}
+
+.item-data a{
+	color: #3e8686;
+}

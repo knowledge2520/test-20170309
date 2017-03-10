@@ -1,0 +1,254 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/*
+Change Quick Sidebar Width
+*/
+
+/*
+.page-quick-sidebar-wrapper {
+  right: -370px;
+  width: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-footer {
+  margin-right: 370px;
+  margin-left: -370px;
+}
+
+.page-sidebar-reversed.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-right: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content.page-quick-sidebar-full-height .page-header {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-list {
+  width: 370px !important;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item {
+  width: 370px !important;
+  margin-left: 370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-content-item-shown .page-quick-sidebar-list {
+  margin-left: -370px;
+}
+*/
+.tabletools-dropdown-on-portlet{
+	margin-top:-102px;
+}
+.strong-row-item{
+	font-weight: bold;
+	font-size: small;
+}
+
+/* custom css select 2*/
+.select2-result-repository {
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.select2-result-repository__avatar {
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+}
+.select2-result-repository__avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+.select2-result-repository__meta {
+    margin-left: 70px;
+}
+.select2-result-repository__title {
+    color: black;
+    font-weight: bold;
+    word-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.select2-search__field {
+  min-width: 150px;
+}
+
+.select2-selection {
+  line-height: 1em;
+  border: 1px solid #c2cad8 !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+
+    line-height: 2em;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #c2cad8;
+}
+
+.select2-container {
+  min-width: 100%;
+}
+
+.select2-container--focus .select2-selection {
+  border-color: #93a1bb!important;
+}
+
+
+.page-footer .page-footer-inner-right {
+    color: #2b3643;
+}
+.page-footer .page-footer-inner-right {
+    float: right;
+    display: inline-block;
+}
+
+.header-table{
+  color: black;
+}
+
+.header-table:hover{
+  color:black;
+  text-decoration: none;
+}
+.header-table > .span-header-table{
+  float: right;
+  color: #dfdcdc;
+}
+
+/* 
+	custom button export
+*/
+.portlet.box .dataTables_wrapper .dt-buttons {
+    margin-top: -137px;
+}
+
+/*
+  custom css table
+ */
+/*.header-table > .span-header-table-title{
+  float: left;
+}*/
+
+.header-table > .span-header-table{
+  /* float: right; */
+  color: #dfdcdc;
+  line-height: 19px;
+  position: absolute;
+  right: 10px;
+  height: 19px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.table>thead:first-child>tr:first-child>th{
+    border-bottom: 0;
+    position: relative;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 10px;
+}
+
+@media only screen and (max-width: 704px) {
+    .portlet.box .dataTables_wrapper .dt-buttons {
+	    display: none;
+	}
+}
+
+.pagination {
+    margin: 0 0 10px 0;
+}
+
+.text-right{
+	height: 47px;
+}
+
+/* 
+  custom css button
+ */
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active.open > a {
+    background: #44b6ae !important;
+}
+
+.btn.blue:not(.btn-outline){
+    background-color: #377bb5;
+    border-color: #377bb5;
+}
+    
+/* 
+  custom success message
+ */
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.text-cell-left{
+  float: left;
+  margin-top: auto;
+}
+
+
+.text-cell-right{
+  float: right;
+  right: 10px;
+}
+
+.text-cell-content{
+  display: table;
+  width: 100%;
+  margin: 5px;
+  border-bottom: 1px dotted #67809F;
+}
+
+.text-cell-title{
+  width: 100%;
+}
+
+.text-cell-icon{
+  float: right
+}
+
+.text-cell{
+    height:15px;
+    width:100px;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+
+/* 
+  custom font table label
+ */
+.portlet > .portlet-title > .caption {
+  font-weight: 300;
+}
